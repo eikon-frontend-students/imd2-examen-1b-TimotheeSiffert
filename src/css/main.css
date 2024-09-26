@@ -143,3 +143,56 @@ h4 {
 }
 
 /* 04. Intégration */
+
+.content {
+  display: flex;
+  width: 270px;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.image {
+  border-radius: 20px 20px 0 0;
+}
+
+.name {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.infos {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+}
+.text {
+  display: flex;
+  height: 50px;
+  padding: 0px 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-chat,
+.icon-mail {
+  width: 20px;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapper {
+  display: flex;
+  width: 634px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background: #f7fafd;
+  margin: auto;
+  margin-top: 50px;
+}
